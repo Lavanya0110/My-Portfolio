@@ -131,3 +131,22 @@ ul li a:hover{
 s1{
 
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media(min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+  }
+}
