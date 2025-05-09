@@ -1,0 +1,87 @@
+.main{
+    width: 100%;
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.my-works .section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Grid Layout for Projects */
+.my-works .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+
+/* Individual Project Card */
+.my-works .project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.my-works .project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Project Image */
+.my-works .project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Project Information */
+.my-works .project-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.my-works .project-card:hover .project-info {
+    opacity: 1;
+}
+
+/* Project Title */
+.my-works .project-info h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Project Description */
+.my-works .project-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* View Project Button */
+.my-works .project-info .btn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.my-works .project-info .btn:hover {
+    background-color: #0056b3;
+}
