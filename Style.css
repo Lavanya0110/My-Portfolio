@@ -127,26 +127,24 @@ ul li a:hover{
     color: rgb(59,174,209);
 
 }
-
-s1{
-
-}
-.wrapper {
-  display: flex;
-  flex-direction: column;
+.main {
+  width: 80%;
+  padding: 2vw;
 }
 
-@media(min-width: 768px) {
-  .wrapper {
-    flex-direction: row;
-  }
+h1 {
+  font-size: 2rem;
 }
 @media (max-width: 768px) {
-  .heading {
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .info h1 {
     font-size: 1.5rem;
   }
+}
 
   .nav-menu {
     flex-direction: column;
   }
-}
