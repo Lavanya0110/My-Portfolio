@@ -131,11 +131,7 @@ ul li a:hover{
   width: 80%;
   padding: 2vw;
 }
-
-h1 {
-  font-size: 2rem;
-}
-@media (max-width: 80%) {
+@media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
   }

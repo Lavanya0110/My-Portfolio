@@ -66,24 +66,3 @@ d{
     line-height: 1.6;
     margin-bottom: 10px;
 }
-.main {
-  width: 80%;
-  padding: 2vw;
-}
-
-h1 {
-  font-size: 2rem;
-}
-@media (max-width: 80%) {
-  .navbar ul {
-    flex-direction: column;
-  }
-
-  .info h1 {
-    font-size: 1.5rem;
-  }
-}
-
-  .nav-menu {
-    flex-direction: column;
-  }
